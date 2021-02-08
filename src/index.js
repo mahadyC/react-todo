@@ -4,9 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const DATA = [
+  {name: 'first', complete:false, id:'todo-0'},
+  {name: 'second', complete:false, id:'todo-1'},
+  {name: 'third', complete:false, id:'todo-2'}
+];
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App tasks={DATA}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

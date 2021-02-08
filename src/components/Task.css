@@ -1,0 +1,43 @@
+.list-item {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.list-item .checkbox-div {
+  margin-bottom: 5px;
+}
+
+
+.list-item button {
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 0 10px;
+  border: none;
+  width: auto;
+  height: 25px;
+  background-color: #d8d4d4;
+}
+
+.list-item .edit-div {
+  margin: 10px 0;
+}
+
+.list-item .edit-input {
+  padding: 0 5px;
+  width: 160px;
+  height: 24px;
+  border: 1px solid black;
+}
+
+.list-item .save-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.list-item .edit-button:hover {
+  background-color: yellowgreen;
+}
+
+.list-item .delete-button:hover {
+  background-color: tomato;
+}

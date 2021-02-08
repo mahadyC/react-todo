@@ -1,0 +1,21 @@
+.complete-list {
+  list-style-type: none;
+}
+
+.complete-list .remove-complete-item {
+  margin: 5px 0;
+}
+
+.complete-list .remove-complete-item button {
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 0 10px;
+  border: none;
+  width: auto;
+  height: 25px;
+  background-color: #d8d4d4;
+}
+
+.complete-list .remove-complete-item button:hover {
+  background-color: tomato;
+}

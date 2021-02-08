@@ -1,0 +1,30 @@
+.add-form {
+  /* border: 5px solid; */
+  margin-bottom: 10px;
+}
+
+.add-form input[type=text] {
+  padding: 0 5px;
+  width: 160px;
+  height: 24px;
+  border: 1px solid black;
+}
+
+.add-form input[type=text]:focus {
+  border: 1px solid #555;
+}
+
+.add-form button {
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 0;
+  border: none;
+  width: 50px;
+  height: 25px;
+  background-color: #d8d4d4;
+}
+
+.add-form button:hover {
+  background-color: green;
+  color: white;
+}
